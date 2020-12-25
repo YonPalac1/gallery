@@ -1,0 +1,338 @@
+
+body {
+	margin:0;
+	padding: 0;
+}
+
+header {
+	background-image: url(../CharloteMenendez/fondo.jpg); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top: -70px;
+	height: 70vh;
+	text-align: center;
+	border-bottom: 5px #000 solid; 
+}
+header h1{
+	font-size: 10vh;
+	font-family: 'Allura', cursive;
+	font-weight: lighter;
+	text-align: center;
+	color: #fff;
+	padding-top:200px;
+	}
+.titulo{
+	font-size: 36px;
+	color: #FFF;
+}
+.subtitulo {
+	font-size: 24px;
+	color: #fff;
+}
+
+
+.aboutMe{
+	width: 100%;
+	height: 50vh;
+}
+.foto{
+	background-image: url(../CharloteMenendez/camera.jpg);
+	background-position: right top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 50%;
+	height: 50vh;
+	display: inline-block;
+	position: relative;
+	float: left;
+}
+.parrafo{
+	width: 30%;
+	float: left;
+	display: inline-block;
+	text-align: center;
+	margin-left: 5%;
+}
+h2{
+	font-size: 40px;
+	font-family: 'Allura', cursive;
+}
+
+
+
+.fotos{
+	padding: 0px;
+	display: inline-block;
+}
+
+
+					.row > .column {
+					  padding: 0 0px;
+					}
+
+					.row:after {
+					  content: "";
+					  display: table;
+					  clear: both;
+					}
+
+				/* Create four equal columns that floats next to eachother */
+				.column {
+				  display: inline-block;
+				  float: left;
+				  width: 25%;
+				}
+
+				/* The Modal (background) */
+				.modal {
+				  display: none;
+				  position: fixed;
+				  z-index: 1;
+				  padding-top: 100px;
+				  left: 0;
+				  top: 0;
+				  width: 100%;
+				  height: 100%;
+				  overflow: auto;
+				  background-color: black;
+				}
+
+				/* Modal Content */
+				.modal-content {
+				  position: relative;
+				  margin: auto;
+				  padding: 0;
+				  width: 90%;
+				  max-width: 1200px;
+				}
+
+				/* The Close Button */
+				.close {
+				  color: white;
+				  position: absolute;
+				  top: 10px;
+				  right: 25px;
+				  font-size: 35px;
+				  font-weight: bold;
+				}
+
+				.close:hover,
+				.close:focus {
+				  color: #999;
+				  text-decoration: none;
+				  cursor: pointer;
+				}
+
+				/* Hide the slides by default */
+				.mySlides {
+				  display: none;
+				}
+
+				/* Next & previous buttons */
+				.prev,
+				.next {
+				  cursor: pointer;
+				  position: absolute;
+				  top: 50%;
+				  width: auto;
+				  padding: 16px;
+				  margin-top: -50px;
+				  color: white;
+				  font-weight: bold;
+				  font-size: 20px;
+				  transition: 0.6s ease;
+				  border-radius: 0 3px 3px 0;
+				  user-select: none;
+				  -webkit-user-select: none;
+				}
+
+				/* Position the "next button" to the right */
+				.next {
+				  right: 0;
+				  border-radius: 3px 0 0 3px;
+				}
+
+				/* On hover, add a black background color with a little bit see-through */
+				.prev:hover,
+				.next:hover {
+				  background-color: rgba(0, 0, 0, 0.8);
+				}
+
+				
+
+				/* Caption text */
+				.caption-container {
+				  text-align: center;
+				  background-color: black;
+				  padding: 2px 16px;
+				  color: white;
+				}
+
+
+				img.hover-shadow {
+					float: left;
+					display: inline-block;
+				  transition: 0.3s;
+				  cursor: zoom-in;
+				}
+
+				.hover-shadow:hover {
+				  opacity: .3;
+				}
+
+
+.subImg{
+	background-image: url(../CharloteMenendez/landscape-4757115_1280.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size:cover;
+	height: 50vh;
+	width: 100%;
+	margin-top: -35px;
+}
+.subImg h3{
+	color: #fff;
+	font-family: 'Allura', cursive;
+	font-size: 50px;
+	margin-top: 30px;
+	display: flex;
+}
+
+.contacto{
+	width: 100%;
+	height: 500px;
+}
+.contacto .imagen{
+	background-image: url(../CharloteMenendez/BBVxs6E.jpg);
+	background-position: right top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 50%;
+	height: 500px;
+	display: inline-block;
+	position: relative;
+	float: right;
+}
+.formulario{
+	width: 30%;
+	float: left;
+	display: inline-block;
+	text-align: center;
+	margin-left: 5%;
+}
+form{
+	margin: 0 auto;
+	width: 400px;
+	padding: 1em;
+	border: 1px solid #ccc;
+	border-radius: 1em; 
+}
+form div + div{
+	margin-top: 1em;
+}
+label{
+	display: inline-block;
+	width: 90px;
+}
+input, textarea{
+	font: 1em sans-serif;
+	width: 300px;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+	border: 1px solid #999;
+}
+input:focus, textarea:focus{
+	border-color: #000;
+}
+textarea{
+	vertical-align: top;
+	height: 5em;
+	resize: vertical;
+}
+.button{
+	padding-left: 90px;
+}
+.enviar{
+	margin-left: .5em;
+	background-color: #252F30;
+	padding: 25px;
+	color: #fff;
+	font-family: sans-serif;
+}
+
+.boton {
+	background-color: #252F30;
+	font-size: 18px;
+	color: #FFF;
+	padding-top: 8px;
+	padding-right: 12px;
+	padding-bottom: 8px;
+	padding-left: 12px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+.footer{
+	height: 50vh;
+	background-color: #1b262c;
+	text-align: center;
+	z-index: -1;
+}
+a{
+	font-size: 20px;
+	color: #ccc;
+	text-decoration: none;
+}
+footer .texto{
+	width: 100%;
+	background-color: #000;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+@media screen and (max-width: 1024px){
+	.column {
+				  display: inline-block;
+				  float: left;
+				  width: 50%;
+				}
+	.parrafo{
+				width: 45%;
+				margin-top: -35px;
+	}
+}
+@media screen and (max-width: 800px){
+	.column {
+				  display: inline-block;
+				  float: left;
+				  width: 100%;
+				  height: 500;
+				}
+	.parrafo{
+	width: 90%;
+	float: left;
+	text-align: center;
+	margin: 5%;
+	font-size: 18px;
+}
+	.foto{
+		width: 100%;
+	}
+	.contacto .imagen{
+		display: none;
+	}
+	.formulario{
+		width: 90%;
+		float: left;
+		display: inline-block;
+		text-align: center;
+}
+	.subImg h3{
+		font-size: 30px;
+		font-weight: lighter;
+	}
+}
